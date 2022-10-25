@@ -2,9 +2,15 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
+    <header class="container-styles">
       <h1 id="title">Survey Form</h1>
 
       <p id="description">
@@ -12,7 +18,7 @@
       </p>
     </header>
 
-    <main>
+    <main class="container-styles">
       <form id="survey-form">
         <label for="name" id="name-label">
           Name
@@ -135,7 +141,7 @@
           <textarea placeholder="Enter your comment here"> </textarea>
         </label>
 
-        <button id="submit" type="submit">Submit</button>
+        <button id="submit" class="button-styles" type="submit">Submit</button>
       </form>
     </main>
   </body>
